@@ -1,0 +1,37 @@
+header{
+    padding: 20px 0;
+    background-color: #171219;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+body{
+    background-color: #225560;
+    margin: 0;
+}
+footer{
+    text-align: center;
+    color: white;
+    background: url("/assets/bg.jpg");
+    padding-bottom: 20px;
+    margin-top: 10%;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    margin-left: 20px;
+    display: inline;
+}
+nav a{
+    text-transform: uppercase;
+    color: #225560;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 1s all;
+}
+nav a:hover{
+    color: white;
+    transform: scale(3.0);
+}

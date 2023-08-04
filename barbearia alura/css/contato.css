@@ -1,0 +1,60 @@
+#caixinha{
+    width: 1024px;
+    position: relative;
+    margin: auto;
+}
+
+main{
+    width: 1024px;
+    margin: 0px auto;
+}
+.input-padrao{
+    padding: 5px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+    width: 50%;
+}
+form label, form legend{
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    font-size: 17px;
+    width: 30%;
+    padding: 15px;
+    font-weight: bold;
+    background-color:#EDF060 ;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: #b0b330 ;
+    transform: scale(1.1);
+}
+
+table{
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    background-color: #28AFB0;
+    font-size: 22px;
+    margin-top: 80px;
+    border: 1px solid black;
+}
+table tr, td, th{
+    padding: 8px 10px;
+    border: 1px solid black;
+}
+table th{
+    background-color: #1e4a83;
+}

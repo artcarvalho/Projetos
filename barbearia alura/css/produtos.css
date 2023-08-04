@@ -1,0 +1,42 @@
+.caixa{
+    position: relative;
+    width: 1024px;
+    margin: auto;
+}
+main{
+    margin-bottom: 320px;
+}
+.produtos{
+    width: 940px;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+.produtos li{
+    padding: 30px 20px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+.produtos li:hover{
+    border-width: 3px;
+}
+
+.produtos h2{
+    transition: 0.5s all;
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos li:hover h2{
+    font-size: 35px;
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+}
